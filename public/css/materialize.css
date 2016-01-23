@@ -2705,7 +2705,8 @@ i.large {
 
 img.responsive-img,
 video.responsive-video {
-  max-width: 100%;
+  max-width: 80%;
+  max-height: 80%;
   height: auto;
 }
 
@@ -8407,8 +8408,8 @@ a.waves-effect .waves-ripple {
   right: 0;
   background-color: #fafafa;
   padding: 0;
-  max-height: 70%;
-  width: 55%;
+  max-height: 87.5%;
+  width: 80%;
   margin: auto;
   overflow-y: auto;
   border-radius: 2px;
