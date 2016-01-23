@@ -64,36 +64,63 @@ html {
 }
 
 .page-footer {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     height: 6em;
 }
 
 .footer-btn {
+    display: inline-block;
     height: 2.5em;
     margin-left: 3em;
     margin-right: 3em;
 }
 
-#bios {}
-
-#neeraj {
-    width: 50%;
-    float: left;
+#teamwrapper{
+    width:90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: .5em;
 }
 
-#jason {
-    width: 50%;
-    float: left;
+#teamwrapper h1{
+    font-size: 19pt;
+    text-align: center;
 }
 
-#alex {
-    width: 50%;
-    float: left;
+#teamwrapper h3{
+    text-align: center;
+    margin-left: .5em;
+    font-size: 13pt;
 }
 
-#syed {
+
+#teamwrapper h4{
+        width:90%;
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 2em;
+}
+
+#teamwrapper p{
+    font-size: 10pt;
+}
+
+#teamwrapper a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#personleft {
     width: 50%;
     float: left;
+    display: inline-block;
+}
+
+#personright {
+    width: 50%;
+    float: right;
+    display: inline-block;
 }
 
 .circle {
@@ -183,4 +210,8 @@ html {
     #login-container {
         width: 90%;
     }
+    #personleft, #personright {
+        width:90%;
+    }
+
 }
