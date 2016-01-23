@@ -193,5 +193,5 @@ function getMidpoint(lat1, lng1, lat2, lng2) {
     by = Math.cos(lat2) * Math.sin(lng - lng1);
     lat3 = Math.atan2(Math.sin(lat1) + Math.sin(lat2), Math.sqrt((Math.cos(lat1) + bx) * (Math.cos(lat1) + bx) + Math.pow(by, 2)));
     lon3 = lng1 + Math.atan2(by, Math.cos(lat1) + bx);
-    return [Math.round(Math.degrees(lat3), 5), Math.round(Math.degrees(lon3), 5)]
+    return [Math.degrees(lat3), Math.degrees(lon3)]
 }
